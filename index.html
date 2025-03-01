@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="chat-container minimized" id="chat-container">
+        <div class="chat-header" onclick="toggleChat()">💬 Chatbot <span id="toggle-icon">▼</span></div>
+        <div class="chat-content">
+            <div class="chat-box" id="chat-box">
+                <div class="chat-message bot">Bonjour ! Comment puis-je vous aider ? 😊</div>
+            </div>
+            <div class="chat-options">
+                <button class="chat-btn" onclick="sendQuestion('Que recherchez vous comme poste ?')">Que recherchez vous comme poste ?</button>
+                <button class="chat-btn" onclick="sendQuestion('Quand etes vous disponnible ?')">Quand êtes-vous disponible ?</button>
+                <button class="chat-btn" onclick="sendQuestion('Comment vous contacter ?')">Comment vous contacter ?</button>
+                <button class="chat-btn" onclick="sendQuestion('Comment vous contacter ?')">Comment vous contacter ?</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
