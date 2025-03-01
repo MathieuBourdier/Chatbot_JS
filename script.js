@@ -16,6 +16,9 @@ function sendQuestion(question) {
             case "Comment vous contacter ?":
                 response = "Vous pouvez me joindre par mail à math.9408@gmail.com.";
                 break;
+            case "Temps de trajet jusqu à Paris ?":
+                response = "Depuis Chelles mon domicile, je mets 15 min avec la ligne P pour rejoindre la Gare de l’Est.";
+                break;
             default:
                 response = "Je n’ai pas compris votre question.";
         }
